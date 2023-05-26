@@ -29,7 +29,7 @@ void employee::calc()
 
 void employee::display()
 {
-	cout<<"EMPLOYEE ID\t"<<ID<<"\n"<<"EMPLOYEE NAME\t"<<name<<"\n"<<"BASIC SALARY\t"<<basic<<"\n"<<"DA\t\t"<<da<<"\n"<<"GROSS SALARY\t"<<gsal<<"\n"<<"INCOME TAX\t"<<it<<"\n"<<"NET SALARY\t"<<netsal<<"\n";
+	cout<<"EMPLOYEE ID\t"<<ID<<"\n"<<"EMPLOYEE NAME\t"<<name<<"\n"<<"BASIC SALARY\t"<<basic<<"\n"<<"DA\t\t"<<da<<"\n"<<"GROSS SALARY\t"<<gsal<<"\n"<<"INCOME TAX\t"<<it<<"\n"<<"NET SALARY\t"<<netsal<<"\n\n";
 }
 
 int main()
