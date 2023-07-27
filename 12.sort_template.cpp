@@ -32,19 +32,6 @@ cout<<"Sorted Integer array is:\n";
 for(i=0;i<n;i++)
 cout<<p[i]<<" ";
 cout<<"\n";
-char q[n];
-cout<<"Enter "<<n<<" character array elements\n";
-for(i=0;i<n;i++)
-{cin>>q[i];}
-cout<<"Actual character array before sorting is:\n";
-for(i=0;i<n;i++)
-cout<<q[i]<<" ";
-cout<<"\n";
-sort(q,n);
-cout<<"Sorted character array is:\n";
-for(i=0;i<n;i++)
-cout<<q[i]<<" ";
-cout<<"\n";
 float r[n];
 cout<<"Enter "<<n<<" float array elements\n";
 for(i=0;i<n;i++)
